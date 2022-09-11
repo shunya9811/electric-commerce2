@@ -4,7 +4,7 @@ function About() {
 　　　　<div className="App">
 　　　　　　<header className="App-header">
 　　　　　　　　<p>
-　　　　　　　　　　HOME
+　　　　　　　　　　Error
 　　　　　　　　</p>
 　　　　　　</header>
 　　　　</div>
