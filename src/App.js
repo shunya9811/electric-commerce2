@@ -1,10 +1,10 @@
-//import { Routes, Route, NavLink, Outlet } from 'react-router-dom';
+import { Routes, Route, NavLink, Outlet } from 'react-router-dom';
 import './App.css';
 
-//import Item from './routes/Item';
-//import ItemDetail from './routes/ItemDetail';
-//import Cart from './routes/Cart';
-//import Favorite from './routes/Favorite';
+import Item from './routes/Item';
+import ItemDetail from './routes/ItemDetail';
+import Cart from './routes/Cart';
+import Favorite from './routes/Favorite';
 
 
 import IconButton from '@mui/material/IconButton';
@@ -20,35 +20,40 @@ import iPhoneSE from './images/iPhoneSE.jpg'
 import iPadAir from './images/iPadAir.jpg'
 import AirPos3 from './images/AirPods3.jpg'
  
-//const homeUrl = process.env.PUBLIC_URL;
+
 
 function App() {
   return (
     <div className="App">
       <header className='center right'>
+        <NavLink to='/' style={{ color: "white"}}>
           <p className='title'>Electric Commerce</p>
+        </NavLink>
         <div className='headerBtn'>
           <IconButton>
+            <NavLink to='/cart'  style={{ color: "white"}}>
               <ShoppingCartIcon
                 fontSize='large'
               />
+            </NavLink>  
           </IconButton>
           <IconButton>
+            <NavLink to='/favorite' style={{ color: "white"}}>
               <FavoriteIcon 
                 fontSize='large'
               />
+            </NavLink>
           </IconButton>
         </div>
       </header>
       <main>
-        {/*
         <Routes>
-          <Route path={homeUrl} element={<Item products={PRODUCTS}/>}/>
-          <Route path={homeUrl + '/:itemId'} element={<ItemDetail/>}/>
-          <Route path={homeUrl + '/cart'} element={<Cart/>}/>
-          <Route path={homeUrl + '/favorite'} element={<Favorite/>}/>
+          <Route path='/' element={<Item products={PRODUCTS}/>}/>
+          <Route path='/:itemId' element={<ItemDetail/>}/>
+          <Route path='/cart' element={<Cart/>}/>
+          <Route path='/favorite' element={<Favorite/>}/>
         </Routes>
-  <Outlet></Outlet>*/}
+        <Outlet></Outlet>
       </main>
     </div>
   );
