@@ -19,8 +19,6 @@ import iPhone13 from './images/iPhone13.jpg'
 import iPhoneSE from './images/iPhoneSE.jpg' 
 import iPadAir from './images/iPadAir.jpg'
 import AirPos3 from './images/AirPods3.jpg'
- 
-
 
 function App() {
   return (
