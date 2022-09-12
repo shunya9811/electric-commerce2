@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/electric-commerce2/static/css/main.5d91d465.css",
+    "main.js": "/electric-commerce2/static/js/main.a26fac29.js",
+    "static/js/787.b701888c.chunk.js": "/electric-commerce2/static/js/787.b701888c.chunk.js",
+    "static/media/iPhoneSE.jpg": "/electric-commerce2/static/media/iPhoneSE.c10c8f7410c40fa8544f.jpg",
+    "static/media/iPadAir.jpg": "/electric-commerce2/static/media/iPadAir.d955da03dbac0b35a8b6.jpg",
+    "static/media/iPhone13Pro.jpg": "/electric-commerce2/static/media/iPhone13Pro.b1e3ee625fb23447d8c8.jpg",
+    "static/media/iPhone13.jpg": "/electric-commerce2/static/media/iPhone13.07a74c07bde2189b74c4.jpg",
+    "static/media/MacBookAir.jpg": "/electric-commerce2/static/media/MacBookAir.649f310879f665a283c4.jpg",
+    "static/media/MacBookPro13.jpg": "/electric-commerce2/static/media/MacBookPro13.c0bca58ea161ea416fd9.jpg",
+    "static/media/MacBookPro14.jpg": "/electric-commerce2/static/media/MacBookPro14.04f47207d5371feb137e.jpg",
+    "static/media/AirPods3.jpg": "/electric-commerce2/static/media/AirPods3.82cb21558fe9fa8249c5.jpg",
+    "index.html": "/electric-commerce2/index.html",
+    "main.5d91d465.css.map": "/electric-commerce2/static/css/main.5d91d465.css.map",
+    "main.a26fac29.js.map": "/electric-commerce2/static/js/main.a26fac29.js.map",
+    "787.b701888c.chunk.js.map": "/electric-commerce2/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d91d465.css",
+    "static/js/main.a26fac29.js"
+  ]
+}
