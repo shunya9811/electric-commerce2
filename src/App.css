@@ -1,38 +1,224 @@
-.App {
+header{
+  display: flex;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+}
+
+main{
+  padding: 75px 0 0 0;
+}
+
+.title{
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0.5rem;
+  margin-left: 5rem;
+}
+
+.headerBtn{
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+
+.right .headerBtn{
+  margin-left: auto;
+}
+
+.itemPage{
+  padding:  0 3rem;
+}
+
+.selectBar{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.sortCon{
+  margin: 0 1rem;
+}
+
+.filteringCon{
+  margin: 0 1rem;
+}
+
+.sortInput{
+  font-size: 20px;
+  height: 30px;
+}
+
+.searchInput{
+  font-size: 17px;
+  height: 23px;
+}
+
+.itemCon{
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin: 2rem;
+  padding: 0 2rem 1rem 2rem;
+}
+
+.itemPageCards {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 960px;
+  padding: 0;
+}
+
+.itemPageCards::after{
+  content: "";
+  display: block;
+  width: 28%;
+  height: 0;
+}
+
+.itemPageCardContainer {
+  width: 200px;
+  height: auto;
+  margin: 1rem;
+  padding: 0.5em 1em;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+}
+
+.itemPageCardContainer .itemPageCardImgBox img {
+  height: 200px;
+  object-fit: contain;
+  width: 100%;
+}
+
+
+.cardBtnCon{
+  text-align: right;
+}
+
+.itemDetailPage{
+  padding:  0 3rem;
+  display: flex;
+}
+
+.detailCon{
+  border: 1px solid #000;
+  margin: 2rem;
+  width: 70%;
+  padding: 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.operationCon{
+  border: 1px solid #000;
+  margin: 2rem;
+  padding: 1rem;
+  width: 30%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.detailImgBox img{
+  height: 200px;
+  width: auto;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2rem 0;
 }
 
-.App-link {
-  color: #61dafb;
+.priceText{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+textarea{
+  width: 80%;
+  height: 150px;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.numInput{
+  width: 5rem;
+  height: 2.5rem;
+  padding: 0;
+  font-size: 20px;
+  text-align: right;
+}
+
+.btn{
+  font-size: 20px;
+  width: 150px;
+  background-color: cornflowerblue;
+  border-color: azure;
+  border-radius: 20px;
+  
+  margin: 0.5rem 0;
+}
+
+.btnCon{
+  text-align: right;
+}
+
+.cartPage{
+  padding:  0 3rem;
+}
+
+.cartCon{
+  border: 1px solid #000;
+  margin: 2rem;
+  width: 70%;
+  height: auto;
+  padding: 0.5rem 1.5rem;
+}
+
+.purchaseCon{
+  border: 1px solid #000;
+  margin: 2rem;
+  padding: 1rem;
+  width: 30%;
+}
+
+.userPageCards{
+  margin: 1rem;
+}
+
+.userPageCardsContainer{
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  width: 95%;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.userPageCardsContainer .imgBox img {
+  height: 120px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.itemPageCardContainer .itemPageCardImgBox img {
+  height: 200px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.favoritePage{
+  padding:  0 3rem;
+}
+
+.favoriteCon{
+  border: 1px solid #000;
+  margin: 2rem;
+  padding: 0.5rem 3rem;
+  height: auto;
 }
